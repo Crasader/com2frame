@@ -10,6 +10,21 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\comframe">
+      <UniqueIdentifier>{62ad97a9-02b0-4bd8-9bbb-cea6ff5e5178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\setting">
+      <UniqueIdentifier>{4eac3a2f-1dc6-4504-a231-e76ba386e34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{c66e3462-7a01-4d37-bf2b-f0522bcf7f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui\panel">
+      <UniqueIdentifier>{4a851994-3373-4764-92fc-176b2ce8e0cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui\window">
+      <UniqueIdentifier>{8ba5a418-d03c-4c2d-be21-add3af13d6ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,6 +36,24 @@
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\SystemCore.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\TopWindow.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\setting\common_function.cpp">
+      <Filter>src\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\setting\default.cpp">
+      <Filter>src\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\window\GameLoop01.cpp">
+      <Filter>src\ui\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\comframe\GameLoopBase.cpp">
+      <Filter>src\comframe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -31,6 +64,24 @@
     </ClInclude>
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SystemCore.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\setting\default.h">
+      <Filter>src\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\TopWindow.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\setting\common_function.h">
+      <Filter>src\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\window\GameLoop01.h">
+      <Filter>src\ui\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\comframe\GameLoopBase.h">
+      <Filter>src\comframe</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
