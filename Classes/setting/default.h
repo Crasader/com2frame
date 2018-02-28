@@ -33,12 +33,3 @@ enum ActionCommandCode {
 
 };
 
-namespace CommonMethod {
-
-	Label* GameLabel(string str);
-
-	MenuItemImage* ButtonWhite(string str, const ccMenuCallback& callback);
-
-
-}
-

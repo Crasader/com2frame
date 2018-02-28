@@ -153,6 +153,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="..\Classes\setting\common_function.cpp" />
     <ClCompile Include="..\Classes\setting\default.cpp" />
+    <ClCompile Include="..\Classes\ui\parts\MakeButton.cpp" />
     <ClCompile Include="..\Classes\ui\TopWindow.cpp" />
     <ClCompile Include="..\Classes\ui\window\GameLoop01.cpp" />
     <ClCompile Include="main.cpp" />
@@ -164,6 +165,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="..\Classes\setting\common_function.h" />
     <ClInclude Include="..\Classes\setting\default.h" />
+    <ClInclude Include="..\Classes\ui\parts\MakeButton.h" />
     <ClInclude Include="..\Classes\ui\TopWindow.h" />
     <ClInclude Include="..\Classes\ui\window\GameLoop01.h" />
     <ClInclude Include="main.h" />

@@ -1,6 +1,7 @@
 #include "TopWindow.h"
 #include "ui/window/GameLoop01.h"
 #include "../SystemCore.h"
+#include "ui/parts/MakeButton.h"
 
 struct CallWindowSetting {
 	string name;
@@ -53,7 +54,7 @@ void TopWindow::makeView() {
 
 	int count = 0;
 	for (auto event : event_list) {
-		auto item = CommonMethod::ButtonWhite(event.name, event.callfunc);
+		auto item = (new MakeButton())->label(event.name)->callfunc(event.callfunc)->create();
 		menu->addChild(item);
 		float x = item->getContentSize().width/2 + 10;
 		float y = visibleSize.height - item->getContentSize().height/2;
