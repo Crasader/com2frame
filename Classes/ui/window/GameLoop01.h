@@ -13,7 +13,10 @@ public:
 	virtual void makeView();
 
 	// テスト用のゲームループを開始する
-	void systemStart();
+	void systemStart(Ref* ref);
+
+	// ゲームループ終了
+	void gameFinish();
 
 };
 
