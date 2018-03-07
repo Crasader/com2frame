@@ -68,22 +68,18 @@ void GameLoop01Window::makeView() {
 void GameLoop01Window::systemStart(Ref* ref) {
 	CCLOG("systemStart");
 
-	auto game = GameLoopBase::create([this]() { this->gameFinish(); });
+	auto game = GameLoopBase::create();
 	addChild(game);
+	game->setCallback([this]() { this->gameFinish(); });
 	game->execute();
 
-	/*
-	ログを表示するエリアを作る
-	ゲームループを開始する
-	ログ表示エリアにゲームループの今の状態を逐一更新する
-
-
-	*/
-
+	// ログを表示するエリアを作る
+	// ログ表示エリアにゲームループの今の状態を逐一更新する
 }
 
 // ゲームループ終了
 void GameLoop01Window::gameFinish() {
+	CCLOG("systemFinish");
 
 }
 

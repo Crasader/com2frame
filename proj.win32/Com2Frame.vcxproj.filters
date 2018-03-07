@@ -28,6 +28,9 @@
     <Filter Include="src\ui\parts">
       <UniqueIdentifier>{f59076c4-3c76-4439-a01e-708d162a5ace}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\controller">
+      <UniqueIdentifier>{ffdca9fa-b730-471c-9da9-28a7609ee2be}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -60,6 +63,9 @@
     <ClCompile Include="..\Classes\ui\parts\MakeButton.cpp">
       <Filter>src\ui\parts</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\controller\GameSystem01.cpp">
+      <Filter>src\controller</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -91,6 +97,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\ui\parts\MakeButton.h">
       <Filter>src\ui\parts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controller\GameSystem01.h">
+      <Filter>src\controller</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -7,8 +7,9 @@ public:
 	GameLoopBase();
 	~GameLoopBase();
 
-	static GameLoopBase* create(std::function<void(void)> callback);
+	static GameLoopBase* create();
 
+	void setCallback(std::function<void(void)> callback);
 	virtual void execute();
 
 protected:
@@ -16,6 +17,9 @@ protected:
 	virtual void update(float time);
 	virtual void finish();
 
+private:
+	Node* scheduler_action;
+	std::function<void(void)> callfunc;
 
 
 
